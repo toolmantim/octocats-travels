@@ -1,0 +1,125 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #faf2e0;
+  color: #281303;
+}
+
+/* Float helper */
+
+.clearfix::before,
+.clearfix::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+/* Element styles */
+
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #552905;
+}
+
+/* Generic styles */
+
+.button {
+  background-color: rgba(0,85,212,.9);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: rgba(0,85,212,1);
+}
+
+/* Site header styles */
+
+.site-header {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #552905;
+}
+
+.site-header h1 {
+  font-size: 72px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.site-header h1 a {
+  text-decoration: none;
+}
+
+.site-header p {
+  margin: 0;
+  font-size: 24px;
+  opacity: .5;
+  font-style: italic;
+  float: left;
+}
+
+.site-header nav {
+  margin: 0;
+  float: right;
+}
+
+.site-header nav a + a {
+  margin-left: 10px;
+}
+
+/* Site footer styles */
+
+.site-footer {
+  border-top: 1px solid #552905;
+  margin-top: 20px;
+}
+
+/* Travel index styles */
+
+.travel-index img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.travel-index p {
+  max-width: 35em;
+}
+
+/* Travel page styles */
+
+.travel-details h1 {
+  font-size: 54px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.travel-details .image-floated-right {
+  float: right;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.travel-details .image-floated-left {
+  float: left;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.travel-details img {
+  max-width: 100%;
+}
+
+.travel-details footer {
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.travel-details footer a {
+  font-weight: 400;
+}

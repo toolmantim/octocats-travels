@@ -1,0 +1,50 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  /* todo: set background color to #faf2e0 */
+  /* todo: set color to #281303 */
+}
+
+/* Float helper */
+
+.clearfix::before,
+.clearfix::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+/* Element styles */
+
+body {
+  /* todo: set maximum width to 100px */
+  /* todo: horizontally center */
+}
+
+a {
+  /* todo: set color to #552905; */
+}
+
+/* Generic styles */
+
+.button {
+}
+
+/* Site header styles */
+
+.site-header {
+}
+
+/* Site footer styles */
+
+.site-footer {
+}
+
+/* Travel index styles */
+
+.travel-index {
+}
+
+/* Travel page styles */
+
+.travel-details {
+}
